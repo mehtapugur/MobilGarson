@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "444054571027",
+    "firebase_url": "https://mobilgarsonsiparisapp-default-rtdb.firebaseio.com",
+    "project_id": "mobilgarsonsiparisapp",
+    "storage_bucket": "mobilgarsonsiparisapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444054571027:android:d2f11dcb877506058997e6",
+        "android_client_info": {
+          "package_name": "com.example.mobilgarsonsiparisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444054571027-b8l1c10o3bi044ptpboh5lqvu9bggthl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArm2k4frJoZTBRt4q6FWa74XCRJ57w0js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444054571027-b8l1c10o3bi044ptpboh5lqvu9bggthl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:444054571027:android:07c1f2dbf0a667b68997e6",
+        "android_client_info": {
+          "package_name": "com.mobilgarsonsiparisapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "444054571027-b8l1c10o3bi044ptpboh5lqvu9bggthl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyArm2k4frJoZTBRt4q6FWa74XCRJ57w0js"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "444054571027-b8l1c10o3bi044ptpboh5lqvu9bggthl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
