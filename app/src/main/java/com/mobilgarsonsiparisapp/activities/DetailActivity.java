@@ -27,11 +27,14 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
     DatabaseReference ref;
     ImageView img_detailMealImage;
     TextView txt_detailMealName;
+    //satit al butonu
     Button btn_buy;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detail);
+        //init fonksiyonu calsitir
         init();
     }
 
@@ -40,10 +43,12 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         img_detailMealImage = findViewById(R.id.img_detailMealImage);
         btn_buy = findViewById(R.id.btn_buy);
         btn_buy.setOnClickListener(this);
+        //getDetail fonk calsitir
         getDetail();
     }
 
     public void getDetail(){
+        //firebaseteki Meals ile calisacak
         ref = FirebaseDatabase.getInstance().getReference().child("Meals");
 
         ref.child(Constanst.buyItem).addValueEventListener(new ValueEventListener() {
@@ -63,14 +68,18 @@ public class DetailActivity extends AppCompatActivity implements View.OnClickLis
         });
     }
 
+    //satin alma fonksiyonu
     public void buyItem(){
+        //sonraki OrderActivity olacak
         Intent nextPageActivity=new Intent(getApplicationContext(),OrderActivity.class);
+        //onu calistir
         startActivity(nextPageActivity);
     }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            //satin al butonu bastiginizda buyItem fonk calistiracak
             case R.id.btn_buy:
                 buyItem();
                 break;
