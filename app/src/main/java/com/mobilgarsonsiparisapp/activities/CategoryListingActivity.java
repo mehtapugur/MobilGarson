@@ -35,14 +35,17 @@ public class CategoryListingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_category_listing);
+        //init calistiracaktir
         init();
     }
     private void init(){
         rcv_categorys = findViewById(R.id.rcv_categorys);
+        //listing fonk calistiracaktir
         listing();
     }
 
     public void listing(){
+        //firebasten Category alacak onunla calisacaktir
         query = FirebaseDatabase.getInstance().getReference().child("Category");
         rcv_categorys.setHasFixedSize(true);
         rcv_categorys.setLayoutManager(new LinearLayoutManager(this));
@@ -52,6 +55,7 @@ public class CategoryListingActivity extends AppCompatActivity {
             @Override
             protected void onBindViewHolder(@NonNull CategoryViewHolder holder, int position, @NonNull Category category) {
                 final String key = getRef(position).getKey();
+                //resimler URL olarak alir
                 byte[] bytes = Base64.decode(category.getCategoryImageUrl(),Base64.DEFAULT);
                 Bitmap bitmap2= BitmapFactory.decodeByteArray(bytes,0,bytes.length);
                 holder.img_card_view_category.setImageBitmap(bitmap2);
@@ -59,7 +63,9 @@ public class CategoryListingActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Constanst.categoryName = category.getCategoryName();
+                        //sonraki MealListingActivity olacak
                         Intent nextPageActivity=new Intent(getApplicationContext(),MealListingActivity.class);
+                        //onu calistiracak
                         startActivity(nextPageActivity);
                     }
                 });
