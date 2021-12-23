@@ -40,6 +40,7 @@ public class MealListingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_meal_listing);
+        //init fonk calistir
         init();
     }
 
@@ -50,6 +51,7 @@ public class MealListingActivity extends AppCompatActivity {
         progressDialog = new ProgressDialog(MealListingActivity.this);
         progressDialog.setMessage("Lütfen Bekleyiniz...");
         progressDialog.show();
+        //listing fonksiyonu calistir
         listing();
     }
 
@@ -73,7 +75,9 @@ public class MealListingActivity extends AppCompatActivity {
                     @Override
                     public void onClick(View v) {
                         Constanst.buyItem = key;
+                        //sonraki DetailActivity olacak
                         Intent nextPageActivity=new Intent(getApplicationContext(),DetailActivity.class);
+                        //onu calistiracak
                         startActivity(nextPageActivity);
                     }
                 });
