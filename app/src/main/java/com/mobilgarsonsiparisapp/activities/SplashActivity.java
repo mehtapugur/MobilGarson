@@ -17,9 +17,11 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
 
+        //timer fonk calistiracak
         timer();
     }
 
+    //kontrol yapacak(internet var mi)
     public void timer(){
         CountDownTimer countDownTimer =new
                 CountDownTimer(3000,1000) {
@@ -29,10 +31,12 @@ public class SplashActivity extends AppCompatActivity {
                     @Override
                     public void onFinish() {
 
+                        //var ise sonraki sayfaya gecer
                         if(NetworkUtil.internetControl(getApplicationContext())) {
                             nextPage();
                         }
                         else {
+                            //yok ise uyari verir
                             AlertDialogUtil.alertDialogShow(SplashActivity.this, "İnternet Yok",
                                     "Program için internet gerekli!",
                                     "Ayarlara git",
@@ -45,7 +49,9 @@ public class SplashActivity extends AppCompatActivity {
     }
 
     public void nextPage(){
+        //sonraki LoginActivity olacak
         Intent nextPageActivity=new Intent(getApplicationContext(),LoginActivity.class);
+        //onu acacak
         startActivity(nextPageActivity);
         finish();
     }
