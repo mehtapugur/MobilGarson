@@ -18,3 +18,4 @@ public class CategoryViewHolder extends RecyclerView.ViewHolder{
         view = itemView;
     }
 }
+
