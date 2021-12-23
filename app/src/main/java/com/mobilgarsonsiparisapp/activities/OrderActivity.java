@@ -30,12 +30,14 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
     TextView txt_detailName,txt_detailPrice;
     Button btn_islemiTamamla;
     EditText edt_detailAdres;
+    //database
     DatabaseReference ref;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_order);
+        //init fonksiyonu calistiracak
         init();
     }
 
@@ -48,6 +50,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
         edt_detailAdres = findViewById(R.id.edt_detailAdres);
         btn_islemiTamamla.setOnClickListener(this);
 
+        //firebase teki Meals ile calisacak
         ref = FirebaseDatabase.getInstance().getReference().child("Meals");
 
         ref.child(Constanst.buyItem).addValueEventListener(new ValueEventListener() {
@@ -68,9 +71,13 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
         });
     }
 
+    //Satin alma fonksiyonu
     public void order(){
+        //uyari yap
         Toast.makeText(OrderActivity.this, "Satın Alma İşlemi Tamamlandı", Toast.LENGTH_SHORT).show();
+        //sonraki CategoryListingActivity olacak
         Intent nextPageActivity=new Intent(getApplicationContext(),CategoryListingActivity.class);
+        //onu calisitracak
         startActivity(nextPageActivity);
         finish();
     }
@@ -78,6 +85,7 @@ public class OrderActivity extends AppCompatActivity implements View.OnClickList
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            //order fonk calistiracak
             case R.id.btn_islemiTamamla:
                 order();
                 break;
