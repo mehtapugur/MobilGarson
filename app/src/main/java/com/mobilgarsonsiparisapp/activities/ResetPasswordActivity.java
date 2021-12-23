@@ -25,6 +25,7 @@ public class ResetPasswordActivity extends AppCompatActivity implements View.OnC
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_reset_password);
+        //init fonk calistiracaktir
         init();
     }
 
@@ -36,11 +37,15 @@ public class ResetPasswordActivity extends AppCompatActivity implements View.OnC
 
     }
 
+    //yeni sifre almak icin fonksyonu
     public void resetPassword(){
 
+        //kullanicidan mail al
         String email = edt_mailSifreYenile.getText().toString().trim();
 
+        //mail bos ise
         if (email.isEmpty()){
+            //uyari ver
             edt_mailSifreYenile.setError("Email girmeniz gerekli");
             edt_mailSifreYenile.requestFocus();
             return;
@@ -50,15 +55,19 @@ public class ResetPasswordActivity extends AppCompatActivity implements View.OnC
             @Override
             public void onComplete(@NonNull Task<Void> task) {
                 if (task.isSuccessful()){
+                    //basarili ise uyari verir - Mail adresinize girdikten sonra uygulama size mail attigini goreceksiniz
                     Toast.makeText(ResetPasswordActivity.this, "Mail adresinizi kontrol edin", Toast.LENGTH_SHORT).show();
                 }
                 else {
+                    //basarisiz ise
                     Toast.makeText(ResetPasswordActivity.this, "Opps Bir şeyler yanlış gitti!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
 
+        //sonraki LoginActivity olacak
         Intent nextPageActivity=new Intent(getApplicationContext(),LoginActivity.class);
+        //onu calistir
         startActivity(nextPageActivity);
         finish();
     }
@@ -66,10 +75,11 @@ public class ResetPasswordActivity extends AppCompatActivity implements View.OnC
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            //yeni sifre almak icin resetPassword calistiracak
             case R.id.btn_sifreYenile:
                 resetPassword();
                 break;
 
         }
     }
-}
+}word
