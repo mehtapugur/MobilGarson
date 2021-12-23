@@ -40,6 +40,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        //init fonk calistiracak
         init();
     }
 
@@ -51,6 +52,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         edt_userLoginEmail = findViewById(R.id.edt_kullaniciAdiGirisYap);
         edt_userLoginPassword = findViewById(R.id.edt_sifreGirisYap);
 
+        //buttonlar
         btn_login.setOnClickListener(this);
         txt_register.setOnClickListener(this);
         txt_resetPassword.setOnClickListener(this);
@@ -58,20 +60,30 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
     }
 
     public void login(){
+
+        //mail
         String email = edt_userLoginEmail.getText().toString().trim();
+        //sifreyi
         String password = edt_userLoginPassword.getText().toString().trim();
 
-        if (email.isEmpty()){
+        //eger mail kismi bos ise
+        if (email.isEmpty()) {
+            //uyari verir
             edt_userLoginEmail.setError("Email boş bırakılamaz");
             edt_userLoginEmail.requestFocus();
             return;
         }
+
+        //eger sifre bos ise
         if (password.isEmpty()){
+            //uyari verir
             edt_userLoginPassword.setError("Parola boş bırakılamaz");
             edt_userLoginPassword.requestFocus();
             return;
         }
+        //eger girdigi sifre 6 haneden dan daha kisa ise
         if (password.length() <6){
+            //uyari verir
             edt_userLoginPassword.setError("Parola 6 haneden uzun olmalıdır");
             edt_userLoginPassword.requestFocus();
             return;
@@ -80,7 +92,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
         mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
             @Override
             public void onComplete(@NonNull Task<AuthResult> task) {
+                //eger giris basarili ise
                 if (task.isSuccessful()){
+                    //firebasete User bak
                     user = FirebaseAuth.getInstance().getCurrentUser();
                     reference= FirebaseDatabase.getInstance().getReference("Users");
                     userID = user.getUid();
@@ -89,7 +103,9 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                         public void onDataChange(@NonNull DataSnapshot snapshot) {
                             User userPID = snapshot.getValue(User.class);
                             if(userPID != null){
+                                //sonraki sayfa activities ten CategoryListingActivity yap
                                 Intent nextPageActivity=new Intent(getApplicationContext(),CategoryListingActivity.class);
+                                //sonraki sayfaya gec
                                 startActivity(nextPageActivity);
                                 finish();
                             }
@@ -102,32 +118,41 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                     });
                 }
                 else{
+                    //uyari (eger giris yapilmadiysa calisacaktir)
                     Toast.makeText(LoginActivity.this, "Giriş yapılamadı", Toast.LENGTH_SHORT).show();
                 }
             }
         });
     }
 
+    //Yeni sifre almak
     public void resetPassword(){
+        //activities ten ResetPasswordActivity acacak
         Intent nextPageActivity=new Intent(getApplicationContext(),ResetPasswordActivity.class);
         startActivity(nextPageActivity);
         finish();
     }
     public void register(){
+        //sonraki activities ten RegisterActivity olacak
         Intent nextPageActivity=new Intent(getApplicationContext(),RegisterActivity.class);
+        //onu calistiracak
         startActivity(nextPageActivity);
         finish();
     }
 
     @Override
     public void onClick(View v) {
+        //buttonlar
         switch (v.getId()){
+            //login fonk calistiracak
             case R.id.btn_girisYap:
                 login();
                 break;
+                //register fonk calistiracak
             case R.id.txt_kayitOl:
                 register();
                 break;
+                //resetPassword fonk calistiracak
             case R.id.txt_sifremiUnuttum:
                 resetPassword();
         }
