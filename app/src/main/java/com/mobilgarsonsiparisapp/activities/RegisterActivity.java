@@ -28,6 +28,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
+        //init fonk calistiracak
         init();
     }
 
@@ -41,33 +42,52 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         btn_KayitOl.setOnClickListener(this);
     }
 
+    //kayit yap fonksiyonu
     public void kayitYap(){
+        //adi alacak
         String adi = edt_AdiKayitOl.getText().toString().trim();
+        //soyadi alacak
         String soyadi = edt_soyadiKayitOl.getText().toString().trim();
+        //mail alacak
         String email = edt_emailKayitOl.getText().toString().trim();
+        //sifre alacak
         String sifre = edt_sifreKayitOl.getText().toString().trim();
 
+        //eger kullanici girdigi adi bos ise
         if (adi.isEmpty()){
+            //uyari verir
             edt_AdiKayitOl.setError("Adi boş bırakılamaz");
             edt_AdiKayitOl.requestFocus();
             return;
         }
+
+        //eger soyadi bos ise
         if (soyadi.isEmpty()){
+            //uyari verir
             edt_soyadiKayitOl.setError("Soyadi boş bırakılamaz");
             edt_soyadiKayitOl.requestFocus();
             return;
         }
+
+        //mail bos ise
         if (email.isEmpty()){
+            //uyari verir
             edt_emailKayitOl.setError("Email boş bırakılamaz");
             edt_emailKayitOl.requestFocus();
             return;
         }
+
+        //sifre bos ise
         if (sifre.isEmpty()){
+            //uyari verir
             edt_sifreKayitOl.setError("Sifre boş bırakılamaz");
             edt_sifreKayitOl.requestFocus();
             return;
         }
+
+        //sifrenin uzunlugu 6 dan daha az ise
         if (sifre.length() <6){
+            //uyari verir
             edt_sifreKayitOl.setError("Parola 6 haneden uzun olmalıdır");
             edt_sifreKayitOl.requestFocus();
             return;
@@ -76,7 +96,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                 .addOnCompleteListener(new OnCompleteListener<AuthResult>() {
                     @Override
                     public void onComplete(@NonNull Task<AuthResult> task) {
+                        //eger her seh dogru ise
                         if (task.isSuccessful()){
+                            //firebase teki User kismina kullanicinin girdigi bilgileri ekleyecek
                             User user = new User(adi,soyadi,email);
                             FirebaseDatabase.getInstance().getReference("Users")
                                     .child(FirebaseAuth.getInstance().getCurrentUser().getUid())
@@ -84,9 +106,11 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                                 @Override
                                 public void onComplete(@NonNull Task<Void> task) {
                                     if (task.isSuccessful()){
+                                        //eger kullanici firebase basarili bir sekilde eklenmis ise
                                         Toast.makeText(RegisterActivity.this, "Kullanıcı başarılı bir şekilde eklendi", Toast.LENGTH_SHORT).show();
                                     }
                                     else{
+                                        //firebase eklenmemis ise
                                         Toast.makeText(RegisterActivity.this, "Kullanıcı Eklenemedi", Toast.LENGTH_SHORT).show();
                                     }
                                 }
@@ -98,7 +122,9 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
                     }
                 });
 
+        //sonraki LoginActivity olacak
         Intent nextPageActivity=new Intent(getApplicationContext(),LoginActivity.class);
+        //onu ac
         startActivity(nextPageActivity);
         finish();
 
@@ -108,6 +134,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
     @Override
     public void onClick(View v) {
         switch (v.getId()){
+            //kayitYap fonk calistir
             case R.id.btn_KayitOl:
                 kayitYap();
                 break;
