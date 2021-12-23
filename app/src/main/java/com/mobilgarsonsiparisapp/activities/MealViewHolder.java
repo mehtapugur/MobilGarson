@@ -21,3 +21,4 @@ public class MealViewHolder extends RecyclerView.ViewHolder{
         view = itemView;
     }
 }
+
