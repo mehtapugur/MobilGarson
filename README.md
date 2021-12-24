@@ -56,17 +56,17 @@ Görseller Photoshop ile hazırlandı.<br/>
 
 ## :camera_flash: Ekran Görüntüleri
 
-| Icon | Home | Kullanıcı Kaydı |
-| --- | --- | --- |
-| ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360861-a63d3a8c-53bd-4e73-9592-3c548f7cb5e2.png) |
-
-| Icon | Home |
-| --- | --- |
-| ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) |
-
 | Icon | Home | Kullanıcı Kaydı | Şifre Yenileme |
 | --- | --- | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360861-a63d3a8c-53bd-4e73-9592-3c548f7cb5e2.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360984-8c9da7f6-c450-4935-b7b5-12448cd85310.png) |
+
+| Menü | Ürün Detay | Satın Alma Ekranı |
+| --- | --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147361109-469fad6d-6855-4bdc-8192-0559435faf50.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361131-ac47dee1-9c36-4e81-8ca3-412cbb654c32.png) | ![Preview]((https://user-images.githubusercontent.com/24686636/147361160-eb54c654-5d8a-47fe-9f80-3c4fd00b65c3.png) |
+
+| Salata | Tatlı |
+| --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147361254-4bd72541-8c22-4ab5-a1d8-a92c4aec9883.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361272-adae4fab-c182-4070-8e34-392c04dbcf60.png) |
 
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
