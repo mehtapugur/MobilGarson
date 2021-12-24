@@ -54,6 +54,20 @@ Görseller Photoshop ile hazırlandı.<br/>
 - Paketleme / Dağıtım
   - Uygulama Derleme: Uygulama derlenip test edilmiştir. </br></br>
 
+## :camera_flash: Ekran Görüntüleri
+
+| Icon | Home | Kullanıcı Kaydı |
+| --- | --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360861-a63d3a8c-53bd-4e73-9592-3c548f7cb5e2.png) |
+
+| Icon | Home |
+| --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) |
+
+| Icon | Home | Kullanıcı Kaydı | Şifre Yenileme |
+| --- | --- | --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360861-a63d3a8c-53bd-4e73-9592-3c548f7cb5e2.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360984-8c9da7f6-c450-4935-b7b5-12448cd85310.png) |
+
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
 <br/>
