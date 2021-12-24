@@ -1,8 +1,12 @@
+<div align="center">
+  <img src="https://user-images.githubusercontent.com/24686636/147353311-3c9cefb1-975a-49fb-803f-c7cbd50dd585.png" alt="title" />
+</div>
+
 ### :pushpin: Not
 
 Bu proje Kocaeli Üniversitesi VII. Döneminde bulunan Mobil Programlama dersi kapsamında hazırlanmıştır.
 
-# MobilGarson
+# Mobil Garson
 
 Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş edebilmesini sağlayan bir mobil sipariş uygulaması.
 
@@ -16,7 +20,6 @@ Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş ede
 Veritabanı ve kullanıcı kaydı işlemleri için Firebase kullanıldı.<br/>
 Uygulama Android Studio'da Kotlin ile geliştirildi.<br/>
 Görseller Photoshop ile hazırlandı.<br/>
-<br/>
 
 ## :sparkles: Temel Özellikler
 
@@ -31,7 +34,7 @@ Görseller Photoshop ile hazırlandı.<br/>
 
 ## :computer: Kurulum
   
-  - Projeyi çalıştırabilmek için Android Studio ve Git bilgisayarınızda kurulu olmalıdır. Git terminalini açıp şu ifadeyi ``git clone https://github.com/mehtapugur/MobilGarson.git`` yazıp enter tuşuna bastığınızda proje localinize inmiş olacaktır. Ardından projeyi android studioda açıp emülatörde çalıştırabilirsiniz.<br/><br/
+  - Projeyi çalıştırabilmek için Android Studio ve Git bilgisayarınızda kurulu olmalıdır. Git terminalini açıp şu ifadeyi ``git clone https://github.com/mehtapugur/MobilGarson.git`` yazıp enter tuşuna bastığınızda proje localinize inmiş olacaktır. Ardından projeyi android studioda açıp emülatörde çalıştırabilirsiniz.<br/><br/>
 
 ## :page_with_curl: Ders Özeti (Müfredat) içerisinde Kullandıklarımız
 
@@ -49,7 +52,7 @@ Görseller Photoshop ile hazırlandı.<br/>
   - İzin / Yetki / Oturum Yönetimi
   - Gizlilik Politikaları ve Analitik Veriler
 - Paketleme / Dağıtım
-  - Uygulama Derleme: Uygulama derlenip test edilmiştir.
+  - Uygulama Derleme: Uygulama derlenip test edilmiştir. </br></br>
 
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
