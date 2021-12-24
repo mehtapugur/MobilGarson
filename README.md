@@ -90,7 +90,7 @@ Görseller Photoshop ile hazırlandı.<br/>
 | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147362607-dcbe39aa-33b8-4ece-88eb-69c2976f6024.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362640-61760814-cbbf-490b-944f-851f8b9f23c2.png) |
 
-| Şifre Resetleme | Firebase - Kullanıcı Doğrulama |
+| Şifre Sıfırlama | Firebase - Kullanıcı Doğrulama |
 | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147362742-bc0ec528-4865-4d52-b0f6-504bcee52e13.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362729-c5f2f824-c789-45ba-acfc-c33fe985d607.png) |
 
