@@ -2,7 +2,7 @@
 
 Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş edebilmesini sağlayan bir mobil sipariş uygulaması.
 
-## Teknolojiler
+## :gear: Teknolojiler
 
 - [Firebase](https://github.com/firebase/firebase-ios-sdk)
 - [Kotlin](https://developer.android.com/kotlin?gclid=Cj0KCQiA_JWOBhDRARIsANymNOYYQZ6sq0EJRly0DDZoxGGYT49zsGCbuJKyQZb2EYz-PNEuI2F9ieAaAk10EALw_wcB&gclsrc=aw.ds)
