@@ -62,11 +62,15 @@ Görseller Photoshop ile hazırlandı.<br/>
 
 | Menü | Ürün Detay | Satın Alma Ekranı |
 | --- | --- | --- |
-| ![Preview](https://user-images.githubusercontent.com/24686636/147361109-469fad6d-6855-4bdc-8192-0559435faf50.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361131-ac47dee1-9c36-4e81-8ca3-412cbb654c32.png) | ![Preview]((https://user-images.githubusercontent.com/24686636/147361160-eb54c654-5d8a-47fe-9f80-3c4fd00b65c3.png) |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147361109-469fad6d-6855-4bdc-8192-0559435faf50.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361131-ac47dee1-9c36-4e81-8ca3-412cbb654c32.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361160-eb54c654-5d8a-47fe-9f80-3c4fd00b65c3.png) |
 
-| Salata | Tatlı |
+| Salata | Tatlı | Firebase
+| --- | --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147361254-4bd72541-8c22-4ab5-a1d8-a92c4aec9883.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361272-adae4fab-c182-4070-8e34-392c04dbcf60.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361534-c0f1d208-db3b-422a-9935-57897edd8d97.png) |
+
+| Şifre Değiştirilmesi |
 | --- | --- |
-| ![Preview](https://user-images.githubusercontent.com/24686636/147361254-4bd72541-8c22-4ab5-a1d8-a92c4aec9883.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361272-adae4fab-c182-4070-8e34-392c04dbcf60.png) |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147361647-58610e43-dbc1-4ae0-b700-0840e96ce30f.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361658-3df9ddd6-6052-4198-ad2e-878baa0d6051.png) |
 
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
