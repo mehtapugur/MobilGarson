@@ -8,3 +8,25 @@ Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş ede
 - [Kotlin](https://developer.android.com/kotlin?gclid=Cj0KCQiA_JWOBhDRARIsANymNOYYQZ6sq0EJRly0DDZoxGGYT49zsGCbuJKyQZb2EYz-PNEuI2F9ieAaAk10EALw_wcB&gclsrc=aw.ds)
 - [Photoshop](https://www.adobe.com/tr/products/photoshop.html)
 - [Android Studio](https://developer.android.com/studio?gclid=Cj0KCQiA_JWOBhDRARIsANymNOYfWt-U0UcFIXkOwDSTZs7q8Yz-okesn8M3_TyeAF5JLFw6FvF0u-8aAmu4EALw_wcB&gclsrc=aw.ds)
+
+Veritabanı ve kullanıcı kaydı işlemleri için Firebase kullanıldı.<br/>
+Uygulama Android Studio'da Kotlin ile geliştirildi.<br/>
+Görseller Photoshop ile hazırlandı.<br/>
+<br/>
+
+## :sparkles: Temel Özellikler
+
+  - Uygulamaya kullanıcı kaydı yapılabiliyor.
+  - Kayıtllı kullanıcılar email ve şifre bilgileriyle uygulamaya giriş yapabiliyor.
+  - Kullanıcı bilgileri, yemeklere dair bilgiler ve görseller Firebase bulut veritabanında tutuluyor.
+  - Kullanıcı şifresini unuttuğunda şifre resetleme işlemini yapabiliyor.
+  - Seçilen ürünü satın alma işlemi yapılabiliyor.
+  - Uygulamanın çalışması için Wi-Fi gerekmekte, bu sebeple her 3 saniyede bir wifi bağlantısı kontrol ediliyor.
+  - Uygulamaya giriş yapıldığında Category ekranı açılıyor.
+  - Kullanıcı seçtiği yemeğin, tatlının, salatanın veya içeceğin içeriğindeki ürünleri görebiliyor.
+
+## :memo: Lisans
+Bu proje MIT lisansı ile korunmaktadır.
+<br/>
+<br/>
+İletişim: [LinkedIn](https://www.linkedin.com/in/mehtapugur)
