@@ -59,23 +59,45 @@ Görseller Photoshop ile hazırlandı.<br/>
 | Icon | Home | Kullanıcı Kaydı | Şifre Yenileme |
 | --- | --- | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147360711-12b7337d-93bb-426a-b90b-3cdbdd319460.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360749-9a4f7941-8b1e-4b0d-96be-0a4720031607.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360861-a63d3a8c-53bd-4e73-9592-3c548f7cb5e2.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147360984-8c9da7f6-c450-4935-b7b5-12448cd85310.png) |
-<br/></br>
+
 | Menü | Ürün Detay | Satın Alma Ekranı |
 | --- | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147361109-469fad6d-6855-4bdc-8192-0559435faf50.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361131-ac47dee1-9c36-4e81-8ca3-412cbb654c32.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362025-195b8fb8-6141-4fbf-bba7-6506b63ea03c.png) |
-<br/></br>
+
 | Salata | Tatlı | Firebase |
 | --- | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147361994-296403f5-da70-4029-b215-380541d21b8b.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361982-ea524939-ac21-45fe-b531-22b4cae8c1d2.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361757-8c07597f-fcbb-4501-9476-4afdf6611e22.png) |
-<br/></br>
+
 | Şifre Değiştirilmesi | Şifre Değiştirme Linki |
 | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147361647-58610e43-dbc1-4ae0-b700-0840e96ce30f.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147361658-3df9ddd6-6052-4198-ad2e-878baa0d6051.png) |
-<br/></br>
+
 | DB Bilgileri | Ürün Bilgisi |
 | --- | --- |
 | ![Preview](https://user-images.githubusercontent.com/24686636/147362149-c817cea9-6c47-454b-92d0-c1d70f53c893.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362177-f2bf5924-734b-4d5d-900f-efa349ecfee6.png) |
-<br/></br>
+
+## :camera_flash: Proje Kodları
+
+| Wi-Fi Bağlantı Kontrolü | Wi-Fi Bağlantı |
+| --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147362332-f45a4761-692a-4b5b-a3db-010eb8141e6e.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362565-592c2093-1fe4-4f7d-9ca3-e727a5341c5d.png) |
+
+| Kategori Listeleme| Detay Sayfası |
+| --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147362332-f45a4761-692a-4b5b-a3db-010eb8141e6e.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362431-ccbd1122-170a-403d-ab1f-ac97d7453487.png) |
+
+| Giriş | Kayıt |
+| --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147362607-dcbe39aa-33b8-4ece-88eb-69c2976f6024.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362640-61760814-cbbf-490b-944f-851f8b9f23c2.png) |
+
+| Şifre Resetleme | Firebase - User Doğrulama |
+| --- | --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147362742-bc0ec528-4865-4d52-b0f6-504bcee52e13.png) | ![Preview](https://user-images.githubusercontent.com/24686636/147362729-c5f2f824-c789-45ba-acfc-c33fe985d607.png) |
+
+| Sipariş |
+| --- |
+| ![Preview](https://user-images.githubusercontent.com/24686636/147362765-bb516720-b9fd-4c10-b03e-9ed57ba4491c.png) |
+
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
 <br/>
