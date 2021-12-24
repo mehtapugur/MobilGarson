@@ -8,7 +8,7 @@ Bu proje Kocaeli Üniversitesi VII. Döneminde bulunan Mobil Programlama dersi k
 
 # Mobil Garson
 
-Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş edebilmesini sağlayan bir mobil sipariş uygulaması.
+Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş edebilmesini sağlayan bir mobil sipariş uygulamasıdır.
 
 ## :gear: Teknolojiler
 
