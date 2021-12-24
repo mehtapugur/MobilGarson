@@ -1,3 +1,7 @@
+## Not
+
+Bu proje Kocaeli Üniversitesi VII. Döneminde bulunan Mobil Programlama dersi kapsamında hazırlanmıştır.
+
 # MobilGarson
 
 Kullanıcıların istedikleri yemeği, içeriğini görerek kolayca sipariş edebilmesini sağlayan bir mobil sipariş uygulaması.
