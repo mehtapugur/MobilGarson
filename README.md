@@ -29,23 +29,27 @@ Görseller Photoshop ile hazırlandı.<br/>
   - Uygulamaya giriş yapıldığında Category ekranı açılıyor.
   - Kullanıcı seçtiği yemeğin, tatlının, salatanın veya içeceğin içeriğindeki ürünleri görebiliyor.
 
+## :computer: Kurulum
+  
+  - Projeyi çalıştırabilmek için Android Studio ve Git bilgisayarınızda kurulu olmalıdır. Git terminalini açıp şu ifadeyi ``git clone https://github.com/mehtapugur/MobilGarson.git`` yazıp enter tuşuna bastığınızda proje localinize inmiş olacaktır. Ardından projeyi android studioda açıp emülatörde çalıştırabilirsiniz.<br/><br/
+
 ## :page_with_curl: Ders Özeti (Müfredat) içerisinde Kullandıklarımız
 
-- 4. Kalıcı Veri Yönetimi
+- Kalıcı Veri Yönetimi
   - Veritabanı Sistemleri (RDBMS/NoSQL): Firebase kullanıldı
-- 5. Ağ İletişimi / Web / Bulut
+- Ağ İletişimi / Web / Bulut
   - Wi-Fi
-- 6. Donanım / Sensör / Konum
-  - Wi-Fi kullanıldı
-- 7. Kullanıcı Arayüzü
+- Donanım / Sensör / Konum
+  - Wi-Fi kullanıldı, bağlantı olmadan uygulamamız çalışmamakta bu sebeple 3 saniyede bir bağlantı kontrolü yapılmaktadır.
+- Kullanıcı Arayüzü
   - Arayüz Bileşenleri
   - Dokunma / Giriş Yöntemleri
   - Görüntü / Multimedia  
-- 8. Güvenlik / Gizlilik Politikaları
+- Güvenlik / Gizlilik Politikaları
   - İzin / Yetki / Oturum Yönetimi
   - Gizlilik Politikaları ve Analitik Veriler
-- 12. Paketleme / Dağıtım
-  - Uygulama Derleme
+- Paketleme / Dağıtım
+  - Uygulama Derleme: Uygulama derlenip test edilmiştir.
 
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
