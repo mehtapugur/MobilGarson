@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/24686636/147353311-3c9cefb1-975a-49fb-803f-c7cbd50dd585.png" alt="title" />
+  <img src="https://user-images.githubusercontent.com/24686636/147353418-e1df2ff0-d5c1-46a7-b65b-03cda083667b.png" alt="title" style="border-top-left-radius: 10px; border-bottom-right-radius: 10px" />
 </div>
 
 ### :pushpin: Not
