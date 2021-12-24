@@ -1,4 +1,4 @@
-## :pushpin: Not
+### :pushpin: Not
 
 Bu proje Kocaeli Üniversitesi VII. Döneminde bulunan Mobil Programlama dersi kapsamında hazırlanmıştır.
 
@@ -28,6 +28,24 @@ Görseller Photoshop ile hazırlandı.<br/>
   - Uygulamanın çalışması için Wi-Fi gerekmekte, bu sebeple her 3 saniyede bir wifi bağlantısı kontrol ediliyor.
   - Uygulamaya giriş yapıldığında Category ekranı açılıyor.
   - Kullanıcı seçtiği yemeğin, tatlının, salatanın veya içeceğin içeriğindeki ürünleri görebiliyor.
+
+## :page_with_curl: Ders Özeti (Müfredat) içerisinde Kullandıklarımız
+
+- 4. Kalıcı Veri Yönetimi
+  - Veritabanı Sistemleri (RDBMS/NoSQL): Firebase kullanıldı
+- 5. Ağ İletişimi / Web / Bulut
+  - Wi-Fi
+- 6. Donanım / Sensör / Konum
+  - Wi-Fi kullanıldı
+- 7. Kullanıcı Arayüzü
+  - Arayüz Bileşenleri
+  - Dokunma / Giriş Yöntemleri
+  - Görüntü / Multimedia  
+- 8. Güvenlik / Gizlilik Politikaları
+  - İzin / Yetki / Oturum Yönetimi
+  - Gizlilik Politikaları ve Analitik Veriler
+- 12. Paketleme / Dağıtım
+  - Uygulama Derleme
 
 ## :memo: Lisans
 Bu proje MIT lisansı ile korunmaktadır.
